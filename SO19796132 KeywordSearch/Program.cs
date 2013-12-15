@@ -1,19 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace SO19796132KeywordSearch
 {
-  class Program
+  internal class Program
   {
-    static void Main(string[] args)
+    private static void Main(string[] args)
     {
-      var keywords = new List<Keyword>() 
-      { 
-        new Keyword() { Id = 1, Name = "Mercedes-Benz" }, 
-        new Keyword() { Id = 2, Name = "GLK" }, 
-        new Keyword() { Id = 3, Name = "Citan" }, 
+      var keywords = new List<Keyword>()
+      {
+        new Keyword() { Id = 1, Name = "Mercedes-Benz" },
+        new Keyword() { Id = 2, Name = "GLK" },
+        new Keyword() { Id = 3, Name = "Citan" },
       };
 
       var categories = new List<Category>()
@@ -22,11 +20,11 @@ namespace SO19796132KeywordSearch
         new Category(){Id=2, Name="Truck"},
       };
 
-      var keywordAdCategories = new List<KeywordAdCategory>() 
+      var keywordAdCategories = new List<KeywordAdCategory>()
       {
-        new KeywordAdCategory(){Ad_Id=1, Keyword_Id=1, Category_Id=1},        
-        new KeywordAdCategory(){Ad_Id=2, Keyword_Id=1, Category_Id=2},        
-        new KeywordAdCategory(){Ad_Id=1, Keyword_Id=2, Category_Id=1},     
+        new KeywordAdCategory(){Ad_Id=1, Keyword_Id=1, Category_Id=1},
+        new KeywordAdCategory(){Ad_Id=2, Keyword_Id=1, Category_Id=2},
+        new KeywordAdCategory(){Ad_Id=1, Keyword_Id=2, Category_Id=1},
         new KeywordAdCategory(){Ad_Id=2, Keyword_Id=3, Category_Id=2},
       };
 

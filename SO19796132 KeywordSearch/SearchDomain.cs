@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace SO19796132KeywordSearch
 {
-  class SearchDomain
+  internal class SearchDomain
   {
     public List<Keyword> Keywords { get; set; }
 

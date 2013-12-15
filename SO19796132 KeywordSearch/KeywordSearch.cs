@@ -9,7 +9,6 @@ namespace SO19796132KeywordSearch
   using System;
   using System.Collections.Generic;
   using System.Linq;
-  using System.Text;
 
   /// <summary>
   /// TODO: Update summary.
@@ -25,7 +24,8 @@ namespace SO19796132KeywordSearch
       return string.Format("Id:{0} {1} Key:{2}", Id, Name, Keyword);
     }
 
-    static char[] keywordPartsSplitter = new char[] { ' ', '-' };
+    private static char[] keywordPartsSplitter = new char[] { ' ', '-' };
+
     internal static Dictionary<Category, Dictionary<int, List<KeywordAdCategory>>> FromStringInput(string searchPhrase, SearchDomain searchDomain)
     {
       var identifiedKeywords = searchPhrase
