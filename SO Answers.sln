@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SO19796132 KeywordSearch", "SO19796132 KeywordSearch\SO19796132 KeywordSearch.csproj", "{23BBA9A4-C20F-48AA-AD0C-D979F39FF6C7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SO6480577 CompareGenerics", "SO6480577 CompareGenerics\SO6480577 CompareGenerics.csproj", "{25648683-0B54-4D9D-87A1-5E7ACD2364D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,6 +15,10 @@ Global
 		{23BBA9A4-C20F-48AA-AD0C-D979F39FF6C7}.Debug|x86.Build.0 = Debug|x86
 		{23BBA9A4-C20F-48AA-AD0C-D979F39FF6C7}.Release|x86.ActiveCfg = Release|x86
 		{23BBA9A4-C20F-48AA-AD0C-D979F39FF6C7}.Release|x86.Build.0 = Release|x86
+		{25648683-0B54-4D9D-87A1-5E7ACD2364D5}.Debug|x86.ActiveCfg = Debug|x86
+		{25648683-0B54-4D9D-87A1-5E7ACD2364D5}.Debug|x86.Build.0 = Debug|x86
+		{25648683-0B54-4D9D-87A1-5E7ACD2364D5}.Release|x86.ActiveCfg = Release|x86
+		{25648683-0B54-4D9D-87A1-5E7ACD2364D5}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
